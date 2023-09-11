@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&diplay=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Todo List App</h1>
+    <div id="container">
+        <input type="text" placeholder="Add a task" id="add" class="add-task">
+        <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span>
+        <ul id="list">
+            <!-- <li>
+                <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
+                <label for="task1">Buy groceries</label>
+                <img src="bin.svg" alt="delete" class="delete" data-id="12">
+            </li> -->
+        </ul>
+    </div>
+    <script src="index.js"></script>
+    <script type="text/javascript">
+        console.log(TodoListApp);
+        TodoListApp.initializeApp();  
+    </script>
+</body>
+</html> 
